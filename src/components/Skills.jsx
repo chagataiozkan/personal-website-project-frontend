@@ -1,33 +1,18 @@
+import { mockData } from "../data/mockData";
+
 export default function Skills() {
+  const lang = "en";
   return (
     <section className="skills" id="skills">
       <div className="container">
-        <h2>Skills</h2>
+        <h2>{mockData.header.skillText[lang]}</h2>
         <div className="skills-row">
-          <div className="skill">
-            <h3>Java Script</h3>
-            <p>
-              Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
-            </p>
-          </div>
-          <div className="skill">
-            <h3>React.Js</h3>
-            <p>
-              Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
-            </p>
-          </div>
-          <div className="skill">
-            <h3>Node.Js</h3>
-            <p>
-              Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
-            </p>
-          </div>
+          {mockData.skills.map((skill) => (
+            <div key={skill.id} className="skill">
+              <h3>{skill.title[lang]}</h3>
+              <p>{skill.text[lang]}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

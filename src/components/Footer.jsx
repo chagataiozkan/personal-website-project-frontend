@@ -1,19 +1,22 @@
+import { mockData } from "../data/mockData";
+
 export default function Footer() {
+  const lang = "en";
   return (
     <section className="footer" id="footer">
       <div className="container">
         <div className="footer-parts">
-        <h2>Let's work together on<br />your next product.</h2>
-        <div className="footer-bottom">
-          <div className="footer-bottom-left">
-            <p>almilasucode@gmail.com</p>
+          <h2>{mockData.footer.text[lang]}</h2>
+          <div className="footer-bottom">
+            <div className="footer-bottom-left">
+              <p>almilasucode@gmail.com</p>
+            </div>
+            <div className="footer-bottom-right">
+              <a>{mockData.footer.blog[lang]}</a>
+              <a>Github</a>
+              <a>LinkedIn</a>
+            </div>
           </div>
-          <div className="footer-bottom-right">
-            <a>Personal Blog</a>
-            <a>Github</a>
-            <a>LinkedIn</a>
-          </div>
-        </div>
         </div>
       </div>
     </section>

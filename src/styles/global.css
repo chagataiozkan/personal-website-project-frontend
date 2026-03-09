@@ -199,6 +199,7 @@ body {
 
 .skills-row {
   display: flex;
+  gap: 150px;
 }
 
 .skill h3 {
@@ -226,6 +227,7 @@ body {
 
 .profile-parts {
   display: flex;
+  gap: 80px;
 }
 
 .profile-parts h3 {
@@ -347,6 +349,7 @@ body {
   line-height: 125%;
   padding-top: 100px;
   padding-bottom: 75px;
+  max-width: 500px;
  }
 
  .footer-bottom {

@@ -32,8 +32,8 @@ export const mockData = {
   hero: {
     name: "Almila Su",
     summaryText: {
-      en: ["Creative thinker", "Minimalism lover"],
-      tr: ["Yaratıcı düşünen", "Minimalizm sever"],
+      en: ["Creative thinker", " Minimalism lover"],
+      tr: ["Yaratıcı düşünen", " Minimalizm sever"],
     },
     descText: {
       en: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
@@ -76,16 +76,20 @@ export const mockData = {
     },
   ],
   profile: {
+    headerText: {
+      en: "Profile",
+      tr: "Bilgiler",
+    },
     info: [
       {
         id: 1,
         label: { en: "Birth Date", tr: "Doğum Tarihi" },
-        value: "24.03.1996",
+        value: { en: "03.24.1996", tr: "24.03.1996" },
       },
       {
         id: 2,
         label: { en: "City Of Residence", tr: "İkamet Şehri" },
-        value: "Ankara",
+        value: { en: "Ankara", tr: "Ankara" },
       },
       {
         id: 3,
@@ -104,7 +108,7 @@ export const mockData = {
           en: "Preferred Role",
           tr: "Tercih Ettiği Rol",
         },
-        value: "Frontend, UI",
+        value: { en: "Frontend, UI", tr: "Frontend, UI" },
       },
     ],
     aboutTitle: {

@@ -1,4 +1,9 @@
+import { mockData } from "../data/mockData";
+
 export default function Header() {
+
+  const lang = "en";
+
   return (
     <nav className="header">
       <div className="container">
@@ -8,13 +13,13 @@ export default function Header() {
           </div>
           <div className="header-right">
             <a href="#skills" className="header-text">
-              Skills
+              {mockData.header.skillText[lang]}
             </a>
             <a href="#projects" className="header-text">
-              Projects
+              {mockData.header.projectText[lang]}
             </a>
             <a href="#footer" className="header-hire-text">
-              Hire me
+              {mockData.header.hireText[lang]}
             </a>
           </div>
         </div>

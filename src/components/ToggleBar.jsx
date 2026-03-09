@@ -1,4 +1,9 @@
+import { mockData } from "../data/mockData";
+
 export default function ToggleBar() {
+
+  const lang = "en";
+  
   return (
     <section className="toggle-bar">
       <div className="container">

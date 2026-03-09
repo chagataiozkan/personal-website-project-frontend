@@ -1,41 +1,25 @@
+import { mockData } from "../data/mockData";
+
 export default function Profile() {
+  const lang = "en";
   return (
     <section className="profile">
       <div className="container">
         <div className="divider-line"></div>
-        <h2>Profile</h2>
+        <h2>{mockData.profile.headerText[lang]}</h2>
         <div className="profile-parts">
           <div className="profile-left">
-            <h3>Profile</h3>
-            <div className="profile-left-row">
-              <span className="profile-label">Doğum Tarihi</span>
-              <span className="profile-value">24.03.1996</span>
-            </div>
-            <div className="profile-left-row">
-              <span className="profile-label">İkamet Şehri</span>
-              <span className="profile-value">Ankara</span>
-            </div>
-            <div className="profile-left-row">
-              <span className="profile-label">Eğitim Durumu</span>
-              <span className="profile-value">
-                Hacettepe Ünv. Biyoloji
-                <br />
-                Lisans, 2026
-              </span>
-            </div>
-            <div className="profile-left-row">
-              <span className="profile-label">Tercih Ettiği Rol</span>
-              <span className="profile-value">Frontend, UI</span>
-            </div>
+            <h3>{mockData.profile.headerText[lang]}</h3>
+            {mockData.profile.info.map((item) => (
+              <div className="profile-left-row" key={item.id}>
+                <span className="profile-label">{item.label[lang]}</span>
+                <span className="profile-value">{item.value[lang]}</span>
+              </div>
+            ))}
           </div>
           <div className="profile-right">
-            <h3>About Me</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-              aut, odit laborum aliquam voluptatum nisi mollitia.
-              Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-              deserunt quam temporibus cumque magnam!
-            </p>
+            <h3>{mockData.profile.aboutTitle[lang]}</h3>
+            <p>{mockData.profile.aboutText[lang]}</p>
           </div>
         </div>
       </div>
