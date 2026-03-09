@@ -11,12 +11,12 @@ export default function Footer() {
           <h2>{mockData.footer.text[lang]}</h2>
           <div className="footer-bottom">
             <div className="footer-bottom-left">
-              <p>almilasucode@gmail.com</p>
+              <a href="https://gmail.com">almilasucode@gmail.com</a>
             </div>
             <div className="footer-bottom-right">
-              <a>{mockData.footer.blog[lang]}</a>
-              <a>Github</a>
-              <a>LinkedIn</a>
+              <a href="https://github.com">{mockData.footer.blog[lang]}</a>
+              <a href="https://github.com">Github</a>
+              <a href="https://linkedin.com">LinkedIn</a>
             </div>
           </div>
         </div>

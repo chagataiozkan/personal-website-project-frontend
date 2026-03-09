@@ -1,14 +1,15 @@
 import { createContext, useReducer, useEffect } from "react";
 import { languageReducer } from "../reducers/languageReducer";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const initialLang = localStorage.getItem("lang") || "en";
-  const [lang, dispatch] = useReducer(languageReducer, initialLang);
+  const [storedLang, setStoredLang] = useLocalStorage("lang", "en");
+  const [lang, dispatch] = useReducer(languageReducer, storedLang);
 
   useEffect(() => {
-    localStorage.setItem("lang", lang);
+    setStoredLang(lang);
   }, [lang]);
 
   return (

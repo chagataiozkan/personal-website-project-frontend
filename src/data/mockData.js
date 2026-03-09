@@ -33,7 +33,7 @@ export const mockData = {
     name: "Almila Su",
     summaryText: {
       en: ["Creative thinker", " Minimalism lover"],
-      tr: ["Yaratıcı düşünen", " Minimalizm sever"],
+      tr: ["Yaratıcı düşünür", " Minimalizm sever"],
     },
     descText: {
       en: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
