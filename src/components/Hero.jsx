@@ -6,8 +6,7 @@ export default function Hero() {
           <div className="hero-left">
             <p className="hero-left-name">Almila Su</p>
             <div className="hero-left-text">
-              <span>Creative thinker</span>
-              <span>Minimalism lover</span>
+              <span>Creative thinker Minimalism lover</span>
             </div>
             <p className="hero-left-desc">
               Hi, I’m Almila. I’m a full-stack developer. If you are looking for a
