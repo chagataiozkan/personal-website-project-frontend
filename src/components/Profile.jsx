@@ -1,7 +1,9 @@
 import { mockData } from "../data/mockData";
+import { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContext";
 
 export default function Profile() {
-  const lang = "en";
+  const { lang } = useContext(LanguageContext);
   return (
     <section className="profile">
       <div className="container">

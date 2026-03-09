@@ -15,6 +15,81 @@ body {
   margin: 35px auto 40px;
 }
 
+/* DARK MODE*/
+
+body.dark {
+  background-color: #111827;
+  color: white;
+}
+
+body.dark .divider-line {
+  background: #7C70B3;
+}
+
+body.dark .footer{
+  background-color: #1F2937;
+}
+
+body.dark .footer-bottom-right a:first-child {
+  color: white;
+}
+
+body.dark .footer-bottom-left p{
+  color:#AF0C48;
+}
+
+
+body.dark p {
+  color: #d1d5db;
+}
+
+body.dark h2 {
+  color: #4338ca;
+}
+
+body.dark h3 {
+  color: #ffe86e;
+}
+
+body.dark .header-hire-text {
+  border-color: white;
+  color: white;
+}
+
+body.dark .hero-left-text {
+  color: #ffe86e
+}
+
+body.dark .hero-left-button {
+  border-color: white;
+  color: white;
+}
+
+body.dark .hero-left-button a {
+  text-decoration: none;
+  color: white;
+}
+
+body.dark .projects-row-details a {
+  color:white;
+}
+
+body.dark .projects-row-pills p{
+  border-color: white;
+}
+
+body.dark .profile-label {
+  color: #0077B5
+}
+
+.mode-btn-circle {
+  transition: transform 0.3s;
+}
+
+body.dark .mode-btn-circle {
+  right: 38px;
+}
+
 /*TOGGLE BAR*/
 
 .toggle-bar-right {
@@ -45,6 +120,7 @@ body {
   top: 50%;
   right: 8px;
   transform: translateY(-50%);
+  transition: right 0.3s;
 }
 
 .mode-text {
@@ -62,6 +138,7 @@ body {
   letter-spacing: 1px;
   color: #4338ca;
   line-height: 100%;
+  cursor: pointer;
 }
 
 .lang-text {
@@ -153,17 +230,31 @@ body {
   margin-bottom: 50px;
 }
 
+.hero-left-buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .hero-left-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   color: #3730a3;
   text-decoration: none;
   border: 1px solid #3730a3;
-  padding: 12px 32px;
+  padding: 12px 16px;
   border-radius: 6px;
   background: none;
-  margin-right: 30px;
+}
+
+.hero-left-button img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .hero-left-hire-button {
@@ -176,13 +267,22 @@ body {
   padding: 12px 32px;
   border-radius: 6px;
   background: none;
-  margin-right: 30px;
   background-color: #3730a3;
+}
+
+.hero-left-button a {
+  text-decoration: none;
+  color: #3730a3;
+}
+
+.hero-left-hire-button a {
+  text-decoration: none;
+  color: white;
 }
 
 .hero-right img {
   display: block;
-  margin: 0;
+  margin-top: 50px;
 }
 
 .hero {

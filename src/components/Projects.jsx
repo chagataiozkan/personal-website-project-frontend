@@ -1,7 +1,9 @@
 import { mockData } from "../data/mockData";
+import { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContext";
 
 export default function Projects() {
-  const lang = "en";
+  const { lang } = useContext(LanguageContext);
 
   return (
     <section className="projects" id="projects">

@@ -1,8 +1,8 @@
 export const mockData = {
   toggleBar: {
     darkModeText: {
-      en: "DARK MODE",
-      tr: "KARANLIK TEMA",
+      en: {light: "DARK MODE", dark: "LIGHT MODE"},
+      tr: {light: "KARANLIK TEMA", dark: "AYDINLIK TEMA"},
     },
     langSelectorText: {
       en: {
@@ -10,7 +10,7 @@ export const mockData = {
         gray: "'YE GEÇ",
       },
       tr: {
-        purple: "ENGLISH",
+        purple: " ENGLISH",
         gray: "SWITCH TO",
       },
     },

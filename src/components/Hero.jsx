@@ -1,8 +1,9 @@
 import { mockData } from "../data/mockData";
+import { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContext";
 
 export default function Hero() {
-
-  const lang = "en";
+  const { lang } = useContext(LanguageContext);
 
   return (
     <section className="hero">
@@ -13,18 +14,18 @@ export default function Hero() {
             <div className="hero-left-text">
               <span>{mockData.hero.summaryText[lang]}</span>
             </div>
-            <p className="hero-left-desc">
-             {mockData.hero.descText[lang]}
-            </p>
+            <p className="hero-left-desc">{mockData.hero.descText[lang]}</p>
             <div className="hero-left-buttons">
               <button className="hero-left-hire-button" type="button">
-                {mockData.header.hireText[lang]}
+                <a href="#footer">{mockData.header.hireText[lang]}</a>
               </button>
               <button className="hero-left-button" type="button">
-                Github
+                <img src="/images/github.png"></img>
+                <a href="https://github.com">Github</a>
               </button>
               <button className="hero-left-button" type="button">
-                LinkedIn
+                <img src="/images/LinkedIn.png"></img>
+                <a href="https://linkedin.com">LinkedIn</a>
               </button>
             </div>
           </div>
