@@ -1,8 +1,8 @@
 export const mockData = {
   toggleBar: {
     darkModeText: {
-      en: {light: "DARK MODE", dark: "LIGHT MODE"},
-      tr: {light: "KARANLIK TEMA", dark: "AYDINLIK TEMA"},
+      en: { light: "DARK MODE", dark: "LIGHT MODE" },
+      tr: { light: "KARANLIK TEMA", dark: "AYDINLIK TEMA" },
     },
     langSelectorText: {
       en: {
@@ -166,6 +166,18 @@ export const mockData = {
     blog: {
       en: "Personal Blog",
       tr: "Kişisel Blog",
+    },
+  },
+  toastText: {
+    en: {
+      skills: "Navigated to my skills",
+      projects: "Navigated to my projects",
+      hire: "Navigated to my contact information",
+    },
+    tr: {
+      skills: "Becerilerime gidildi.",
+      projects: "Projelerime gidildi.",
+      hire: "İletişim bilgime gidildi.",
     },
   },
 };
