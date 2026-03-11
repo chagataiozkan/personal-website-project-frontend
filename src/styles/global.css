@@ -580,6 +580,15 @@ body.dark .mode-btn-circle {
     font-size: 16px;
   }
 
+  .hero-left-name {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-left-name::before {
+    display: none;
+  }
+
   /* SKILLS */
   .skills-row {
     flex-direction: column;
@@ -612,7 +621,7 @@ body.dark .mode-btn-circle {
   .profile h3 {
     text-align: center;
   }
-  
+
   .profile-right p {
     text-align: center;
   }
