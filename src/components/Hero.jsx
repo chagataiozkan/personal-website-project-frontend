@@ -21,11 +21,11 @@ export default function Hero() {
               </button>
               <button className="hero-left-button" type="button">
                 <img src="/images/github.png"></img>
-                <a href="https://github.com">Github</a>
+                <a href="https://github.com/chagataiozkan">Github</a>
               </button>
               <button className="hero-left-button" type="button">
                 <img src="/images/LinkedIn.png"></img>
-                <a href="https://linkedin.com">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/%C3%A7a%C4%9Fatay-%C3%B6zkan-7a1481231/">LinkedIn</a>
               </button>
             </div>
           </div>

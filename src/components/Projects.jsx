@@ -23,8 +23,8 @@
                   <p>axios</p>
                 </div>
                 <div className="projects-row-details">
-                  <a href="https://github.com">Github</a>
-                  <a href="https://github.com">{project.viewSite[lang]}</a>
+                  <a href="https://github.com/chagataiozkan">Github</a>
+                  <a href="https://vercel.com/chagataiozkans-projects">{project.viewSite[lang]}</a>
                 </div>
               </div>
             ))}

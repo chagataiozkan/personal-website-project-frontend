@@ -30,14 +30,14 @@ export const mockData = {
     },
   },
   hero: {
-    name: "Almila Su",
+    name: "Çağatay Özkan",
     summaryText: {
       en: ["Creative thinker", " Minimalism lover"],
       tr: ["Yaratıcı düşünür", " Minimalizm sever"],
     },
     descText: {
-      en: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
-      tr: "Merhaba, ben Almila. Ben bir full-stack geliştiriciyim. Eğer güçlü, ölçeklenebilir ve harika kullanıcı deneyimleri sunan frontend ürünleri geliştirebilecek bir geliştirici arıyorsanız, tanışalım ve birlikte çalışalım.",
+      en: "Hi, I’m Çağatay. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+      tr: "Merhaba, ben Çağatay. Ben bir full-stack geliştiriciyim. Eğer güçlü, ölçeklenebilir ve harika kullanıcı deneyimleri sunan frontend ürünleri geliştirebilecek bir geliştirici arıyorsanız, tanışalım ve birlikte çalışalım.",
     },
   },
   skills: [
@@ -84,12 +84,12 @@ export const mockData = {
       {
         id: 1,
         label: { en: "Birth Date", tr: "Doğum Tarihi" },
-        value: { en: "03.24.1996", tr: "24.03.1996" },
+        value: { en: "08.18.2001", tr: "18.08.2001" },
       },
       {
         id: 2,
         label: { en: "City Of Residence", tr: "İkamet Şehri" },
-        value: { en: "Ankara", tr: "Ankara" },
+        value: { en: "Bursa", tr: "Bursa" },
       },
       {
         id: 3,
@@ -98,8 +98,8 @@ export const mockData = {
           tr: "Eğitim Durumu",
         },
         value: {
-          en: "Hacettepe Uni. Biology Bachelor's Degree, 2026",
-          tr: "Hacettepe Ünv. Biyoloji Lisans, 2026",
+          en: "Uludag Uni. Electrical Electronics Engineering Bachelor's Degree, 2025",
+          tr: "Hacettepe Ünv. Elektrik Elektronik Mühendisliği Lisans, 2025",
         },
       },
       {
@@ -124,36 +124,36 @@ export const mockData = {
     {
       id: 1,
       title: {
-        en: "Workintech",
-        tr: "Workintech",
+        en: "Portfolio",
+        tr: "Kişisel Web Sitesi",
       },
       text: {
-        en: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        tr: "Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kod ve tema üzerinde her türlü özelleştirme yapılabilir.",
+        en: "A modern and responsive personal portfolio website. Designed to showcase my projects, technical skills, and contact information through a clean and user-friendly interface. Built with React with a focus on performance and simplicity.",
+        tr: "Modern ve responsive bir kişisel portfolyo web sitesi. Projelerimi, teknik yetkinliklerimi ve iletişim bilgilerimi kullanıcı dostu bir arayüz ile sunuyorum. React kullanılarak geliştirildi ve performans ile sade tasarım odaklı oluşturuldu.",
       },
       viewSite: { en: "View Site", tr: "Siteye Git" },
     },
     {
       id: 2,
       title: {
-        en: "Random Jokes",
-        tr: "Rastgele Şakalar",
+        en: "Food Ordering Website",
+        tr: "Yemek Sipariş Sitesi",
       },
       text: {
-        en: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        tr: "Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kod ve tema üzerinde her türlü özelleştirme yapılabilir.",
+        en: "Food ordering application that allows users to place orders. Built with React, featuring form handling, order creation, and an interactive user experience. Designed with a responsive interface for seamless use across devices.",
+        tr: "Kullanıcıların sipariş verebildiği modern bir yemek sipariş uygulaması. Form yönetimi, sipariş oluşturma ve kullanıcı etkileşimleri React ile geliştirilmiştir. Responsive tasarım sayesinde farklı cihazlarda sorunsuz bir deneyim sunar.",
       },
       viewSite: { en: "View Site", tr: "Siteye Git" },
     },
     {
       id: 3,
       title: {
-        en: "Journey",
-        tr: "Yolculuk",
+        en: "E-Commerce Web Application",
+        tr: "E-Ticaret Web Sitesi",
       },
       text: {
-        en: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        tr: "Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu sayesinde kod ve tema üzerinde her türlü özelleştirme yapılabilir.",
+        en: "A full-featured e-commerce web application. Includes product listing, product details, shopping cart management, and global state management. Developed with React, Redux, and Tailwind CSS.",
+        tr: "Tam özellikli bir e-ticaret uygulaması. Ürün listeleme, detay sayfaları, sepet yönetimi ve durum yönetimi gibi temel e-ticaret işlevlerini içermektedir. React, Redux ve Tailwind CSS kullanılarak geliştirilmiştir.",
       },
       viewSite: { en: "View Site", tr: "Siteye Git" },
     },
